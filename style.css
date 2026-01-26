@@ -1,1 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* About */
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  color: #444;
+}
+
+/* Portfolio */
+.portfolio {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.03);
+}
+
+.card p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* References */
+.references {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
+  color: #444;
+}
+
+.references span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #777;
+}
